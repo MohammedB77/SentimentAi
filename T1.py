@@ -4,7 +4,6 @@ def choose(text):
     blob = TextBlob(text)
     sentiment = blob.sentiment
     polarity = sentiment.polarity
-
     if polarity > 0:
         return "happy", polarity
     elif polarity < 0:
