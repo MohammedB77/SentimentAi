@@ -10,7 +10,6 @@ def choose(text):
         return "sad", polarity
     else:
         return "neutral", polarity
-
 text = input(" Hala Wallah , What Do You Feel right now ? : ")
 mood, polarity = choose(text)
 
